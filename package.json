@@ -8,7 +8,10 @@
     "start": "webpack-dev-server --open"
   },
   "babel": {
-    "presets" : ["env", "react"]
+    "presets": [
+      "env",
+      "react"
+    ]
   },
   "author": "",
   "license": "MIT",
@@ -24,6 +27,7 @@
     "webpack-dev-server": "^2.9.1"
   },
   "dependencies": {
+    "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0"
   }
