@@ -21,3 +21,23 @@ li {
   margin: 10px;
   cursor: pointer;
 }
+
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: space-around;
+}
+
+.popular-item{
+  text-align: center;
+  margin: 20px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.loading {
+  text-align: center;
+}
