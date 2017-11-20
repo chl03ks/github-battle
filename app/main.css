@@ -10,6 +10,11 @@ li {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: #d0021b;
+}
+
 .languages {
   display: flex;
   justify-content: center;
@@ -40,4 +45,37 @@ li {
 
 .loading {
   text-align: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav li {
+  margin-right: 15px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  padding: 7px 0;
+  width: 200px;
+  margin: 10px auto;
 }
